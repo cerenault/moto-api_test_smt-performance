@@ -21,3 +21,25 @@ API developed with Graphql and TypeScript for a company test
 
     npm install --global yarn
     yarn start
+
+## Example request
+
+### List of all motorcycles
+
+    query Motos {
+        motos {
+            id
+            marque
+            modele
+        }
+    }
+
+### Select one brand
+
+    query{
+        moto(marque: "honda") {
+            marque
+            modele
+            cylindree
+        }
+    }

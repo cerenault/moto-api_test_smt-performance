@@ -19,7 +19,6 @@ async function main() {
 
     const { url } = await server.listen(4000);
     console.log("server started on ", url);
-    
 }
 
 main();

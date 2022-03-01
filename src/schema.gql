@@ -3,7 +3,7 @@
 # !!!   DO NOT MODIFY THIS FILE BY YOURSELF   !!!
 # -----------------------------------------------
 
-"""Objet représentant une moto"""
+"""Objet décrivant la représentant une moto"""
 type Moto {
   categorie: String!
   cylindree: Int!
@@ -13,7 +13,7 @@ type Moto {
 }
 
 type Query {
-  moto(modele: String!): Moto
+  moto(marque: String!): Moto
 
   """Liste de tous les modèles de motos"""
   motos: [Moto!]!
