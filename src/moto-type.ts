@@ -1,6 +1,6 @@
 import { Field, Int, ObjectType } from "type-graphql";
 
-@ObjectType({ description: "Objet représentant une moto" })
+@ObjectType({ description: "Objet décrivant la représentant une moto" })
 export class Moto {
 
     @Field(type => Int)

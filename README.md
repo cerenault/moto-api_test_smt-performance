@@ -12,6 +12,12 @@ API developed with Graphql and TypeScript for a company test
 
 ## Setup
 
-    yarn init
+### With npm
 
-    yarn add apollo-server graphql reflect-metadata type-graphql
+    npm i
+    npm start
+
+### With yarn
+
+    npm install --global yarn
+    yarn start
