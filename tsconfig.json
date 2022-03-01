@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "target": "ES5",
+        "module": "commonjs",
+        "lib": ["es2018", "ESNext.AsyncIterable"],
+        "emitDecoratorMetadata": true,  
+        "experimentalDecorators": true
+    }
+}
